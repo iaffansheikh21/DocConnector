@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Input } from "@/components/ui/input"
 import { Search } from 'lucide-react'
@@ -6,6 +7,7 @@ import { Search } from 'lucide-react'
 function CategorySearch() {
     return (
         <div className='mb-10 flex-col items-center flex gap-2'>
+            <Image src="/logo.svg" width={180} height={80} alt='logo' />
             <h2 className='font-bold text-4xl tracking-wide'>
                 Search <span className='text-primary'>Doctors</span>
             </h2>
