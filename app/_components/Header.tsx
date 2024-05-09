@@ -34,7 +34,7 @@ function Header() {
                     ))}
                 </ul>
             </div>
-            <Button>Get Started</Button>
+            <Button className="text-white">Get Started</Button>
         </div>
     );
 }
