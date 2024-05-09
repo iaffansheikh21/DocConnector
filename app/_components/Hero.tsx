@@ -24,7 +24,8 @@ function Hero() {
         Find the best doctors in your area and book an appointment with them easily. Our platform allows you to search for doctors based on your location, specialty, and availability. You can also read reviews from other patients to help you make an informed decision.
         </p>
 
-        <Button className='mt-10 text-white'>Explore Now</Button>
+        <Button className='mt-10 rounded
+        text-white'>Explore Now</Button>
       </div>
     </div>
   </div>
