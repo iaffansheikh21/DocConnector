@@ -413,44 +413,6 @@ video {
 [hidden] {
   display: none;
 }
-    :root {
-      --background: 0 0% 100%;
-      --foreground: 0 0% 3.9%;
-
-      --card: 0 0% 100%;
-      --card-foreground: 0 0% 3.9%;
-
-      --popover: 0 0% 100%;
-      --popover-foreground: 0 0% 3.9%;
-
-      --primary: 0 0% 9%;
-      --primary-foreground: 0 0% 98%;
-
-      --secondary: 0 0% 96.1%;
-      --secondary-foreground: 0 0% 9%;
-
-      --muted: 0 0% 96.1%;
-      --muted-foreground: 0 0% 45.1%;
-
-      --accent: 0 0% 96.1%;
-      --accent-foreground: 0 0% 9%;
-
-      --destructive: 0 84.2% 60.2%;
-      --destructive-foreground: 0 0% 98%;
-
-      --border: 0 0% 89.8%;
-      --input: 0 0% 89.8%;
-      --ring: 0 0% 3.9%;
-
-      --radius: 0.5rem;
-    }
-    * {
-  border-color: hsl(var(--border));
-}
-    body {
-  background-color: hsl(var(--background));
-  color: hsl(var(--foreground));
-}
 
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -559,350 +521,354 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-  .absolute {
+.absolute {
   position: absolute;
 }
-  .relative {
+.relative {
   position: relative;
 }
-  .inset-0 {
+.inset-0 {
   inset: 0px;
 }
-  .mx-auto {
+.mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
-  .mb-10 {
+.mb-10 {
   margin-bottom: 2.5rem;
 }
-  .mr-2 {
+.mr-2 {
   margin-right: 0.5rem;
 }
-  .mt-10 {
+.mt-10 {
   margin-top: 2.5rem;
 }
-  .mt-3 {
+.mt-3 {
   margin-top: 0.75rem;
 }
-  .mt-4 {
+.mt-4 {
   margin-top: 1rem;
 }
-  .flex {
+.flex {
   display: flex;
 }
-  .inline-flex {
+.inline-flex {
   display: inline-flex;
 }
-  .grid {
+.grid {
   display: grid;
 }
-  .hidden {
+.hidden {
   display: none;
 }
-  .h-10 {
+.h-10 {
   height: 2.5rem;
 }
-  .h-11 {
+.h-11 {
   height: 2.75rem;
 }
-  .h-4 {
+.h-4 {
   height: 1rem;
 }
-  .h-64 {
+.h-64 {
   height: 16rem;
 }
-  .h-9 {
+.h-9 {
   height: 2.25rem;
 }
-  .h-full {
+.h-full {
   height: 100%;
 }
-  .w-10 {
+.w-10 {
   width: 2.5rem;
 }
-  .w-4 {
+.w-4 {
   width: 1rem;
 }
-  .w-full {
+.w-full {
   width: 100%;
 }
-  .max-w-screen-xl {
+.max-w-screen-xl {
   max-width: 1280px;
 }
-  .max-w-sm {
+.max-w-sm {
   max-width: 24rem;
 }
-  .cursor-pointer {
+.cursor-pointer {
   cursor: pointer;
 }
-  .grid-cols-1 {
+.grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
-  .flex-col {
+.flex-col {
   flex-direction: column;
 }
-  .items-center {
+.items-center {
   align-items: center;
 }
-  .justify-center {
+.justify-center {
   justify-content: center;
 }
-  .justify-between {
+.justify-between {
   justify-content: space-between;
 }
-  .gap-10 {
+.gap-10 {
   gap: 2.5rem;
 }
-  .gap-2 {
+.gap-2 {
   gap: 0.5rem;
 }
-  .gap-8 {
+.gap-8 {
   gap: 2rem;
 }
-  .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
-  .overflow-hidden {
+.overflow-hidden {
   overflow: hidden;
 }
-  .whitespace-nowrap {
+.whitespace-nowrap {
   white-space: nowrap;
 }
-  .rounded-2xl {
+.rounded-2xl {
   border-radius: 1rem;
 }
-  .rounded-lg {
+.rounded-lg {
   border-radius: var(--radius);
 }
-  .rounded-md {
+.rounded-md {
   border-radius: calc(var(--radius) - 2px);
 }
-  .border {
+.border {
   border-width: 1px;
 }
-  .border-input {
+.border-input {
   border-color: hsl(var(--input));
 }
-  .bg-background {
+.bg-background {
   background-color: hsl(var(--background));
 }
-  .bg-destructive {
+.bg-destructive {
   background-color: hsl(var(--destructive));
 }
-  .bg-primary {
+.bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(13 125 255 / var(--tw-bg-opacity));
 }
-  .bg-secondary {
+.bg-secondary {
   background-color: hsl(var(--secondary));
 }
-  .object-cover {
+.object-cover {
   object-fit: cover;
 }
-  .p-4 {
+.p-4 {
   padding: 1rem;
 }
-  .px-3 {
+.px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
-  .px-4 {
+.px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-  .px-8 {
+.px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-  .py-2 {
+.py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-  .py-8 {
+.py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-  .text-3xl {
+.text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-  .text-4xl {
+.text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
-  .text-sm {
+.text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-  .text-xl {
+.text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-  .font-bold {
+.font-bold {
   font-weight: 700;
 }
-  .font-medium {
+.font-medium {
   font-weight: 500;
 }
-  .tracking-wide {
+.tracking-wide {
   letter-spacing: 0.025em;
 }
-  .text-destructive-foreground {
+.text-destructive-foreground {
   color: hsl(var(--destructive-foreground));
 }
-  .text-gray-500 {
+.text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
-  .text-gray-600 {
+.text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
-  .text-primary {
+.text-primary {
   --tw-text-opacity: 1;
   color: rgb(13 125 255 / var(--tw-text-opacity));
 }
-  .text-primary-foreground {
+.text-primary-foreground {
   color: hsl(var(--primary-foreground));
 }
-  .text-secondary-foreground {
+.text-secondary-foreground {
   color: hsl(var(--secondary-foreground));
 }
-  .underline-offset-4 {
+.underline-offset-4 {
   text-underline-offset: 4px;
 }
-  .shadow-sm {
+.shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-  .outline {
+.outline {
   outline-style: solid;
 }
-  .ring-offset-background {
+.ring-offset-background {
   --tw-ring-offset-color: hsl(var(--background));
 }
-  .transition-all {
+.transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-  .transition-colors {
+.transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-  .ease-in-out {
+.ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-  @keyframes enter {
+@keyframes enter {
 
   from {
     opacity: var(--tw-enter-opacity, 1);
     transform: translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0) scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), var(--tw-enter-scale, 1)) rotate(var(--tw-enter-rotate, 0));
   }
 }
-  @keyframes exit {
+@keyframes exit {
 
   to {
     opacity: var(--tw-exit-opacity, 1);
     transform: translate3d(var(--tw-exit-translate-x, 0), var(--tw-exit-translate-y, 0), 0) scale3d(var(--tw-exit-scale, 1), var(--tw-exit-scale, 1), var(--tw-exit-scale, 1)) rotate(var(--tw-exit-rotate, 0));
   }
 }
-  .ease-in-out {
+.ease-in-out {
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-  .file\:border-0::file-selector-button {
+:root {
+  background-color: ghostwhite;
+}
+
+.file\:border-0::file-selector-button {
   border-width: 0px;
 }
 
-  .file\:bg-transparent::file-selector-button {
+.file\:bg-transparent::file-selector-button {
   background-color: transparent;
 }
 
-  .file\:text-sm::file-selector-button {
+.file\:text-sm::file-selector-button {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-  .file\:font-medium::file-selector-button {
+.file\:font-medium::file-selector-button {
   font-weight: 500;
 }
 
-  .placeholder\:text-muted-foreground::placeholder {
+.placeholder\:text-muted-foreground::placeholder {
   color: hsl(var(--muted-foreground));
 }
 
-  .hover\:scale-105:hover {
+.hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-  .hover\:bg-accent:hover {
+.hover\:bg-accent:hover {
   background-color: hsl(var(--accent));
 }
 
-  .hover\:bg-destructive\/90:hover {
+.hover\:bg-destructive\/90:hover {
   background-color: hsl(var(--destructive) / 0.9);
 }
 
-  .hover\:bg-primary\/90:hover {
+.hover\:bg-primary\/90:hover {
   background-color: rgb(13 125 255 / 0.9);
 }
 
-  .hover\:bg-secondary\/80:hover {
+.hover\:bg-secondary\/80:hover {
   background-color: hsl(var(--secondary) / 0.8);
 }
 
-  .hover\:text-accent-foreground:hover {
+.hover\:text-accent-foreground:hover {
   color: hsl(var(--accent-foreground));
 }
 
-  .hover\:text-primary:hover {
+.hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(13 125 255 / var(--tw-text-opacity));
 }
 
-  .hover\:underline:hover {
+.hover\:underline:hover {
   text-decoration-line: underline;
 }
 
-  .focus-visible\:outline-none:focus-visible {
+.focus-visible\:outline-none:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
-  .focus-visible\:ring-2:focus-visible {
+.focus-visible\:ring-2:focus-visible {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-  .focus-visible\:ring-ring:focus-visible {
+.focus-visible\:ring-ring:focus-visible {
   --tw-ring-color: hsl(var(--ring));
 }
 
-  .focus-visible\:ring-offset-2:focus-visible {
+.focus-visible\:ring-offset-2:focus-visible {
   --tw-ring-offset-width: 2px;
 }
 
-  .disabled\:pointer-events-none:disabled {
+.disabled\:pointer-events-none:disabled {
   pointer-events: none;
 }
 
-  .disabled\:cursor-not-allowed:disabled {
+.disabled\:cursor-not-allowed:disabled {
   cursor: not-allowed;
 }
 
-  .disabled\:opacity-50:disabled {
+.disabled\:opacity-50:disabled {
   opacity: 0.5;
 }
 
-  @media (min-width: 640px) {
+@media (min-width: 640px) {
 
   .sm\:h-80 {
     height: 20rem;
@@ -924,7 +890,7 @@ video {
   }
 }
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
 
   .md\:flex {
     display: flex;
@@ -936,7 +902,7 @@ video {
   }
 }
 
-  @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
   .lg\:order-last {
     order: 9999;
